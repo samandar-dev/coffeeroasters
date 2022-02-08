@@ -637,6 +637,28 @@ section {
   display: inline-block;
 }
 
+.footer__nav-list {
+  list-style-type: none;
+}
+
+.footer__nav-item:not(:nth-child(1)) {
+  margin-left: 33px;
+}
+
+.footer__nav-link {
+  font-family: var(--font-1);
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 15px;
+
+  letter-spacing: 0.9px;
+  text-transform: uppercase;
+  text-decoration: none;
+
+  color: var(--bg-color-5);
+  transition: all 0.2s ease;
+}
+
 .footer__nav-link:active {
   color: var(--color-4);
   transition: all 0.2s ease;
