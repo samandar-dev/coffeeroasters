@@ -154,7 +154,6 @@ section {
 
 .menu-btn {
   font-size: 30px;
-  line-height: 60px;
 
   margin-right: -40px;
 
@@ -174,7 +173,6 @@ section {
   top: -65px;
   right: 30px;
   font-size: 40px;
-  line-height: 60px;
 
   color: var(--color-2);
   background: transparent;
@@ -191,7 +189,7 @@ section {
 
   .nav__menu-box {
     position: absolute;
-    top: -250%;
+    top: -100%;
     right: 0;
 
     width: 100%;
@@ -238,8 +236,7 @@ section {
   }
 
   .menu-btn {
-    display: flex;
-    z-index: 505;
+    display: block;
   }
 
   .open-menu {
@@ -248,7 +245,7 @@ section {
   }
 
   .menu-remov {
-    top: -150%;
+    top: -100%;
     transition: all 0.5s ease;
   }
 
@@ -259,8 +256,8 @@ section {
   .m-block {
     display: block;
   }
-
 }
+
 
 
 /* HERO PART  */
