@@ -187,7 +187,7 @@ section {
 
 @media screen and (max-width: 768px) {
 
-  .nav__menu-box {
+  .header__menu-box {
     position: absolute;
     top: -100%;
     right: 0;
@@ -561,8 +561,11 @@ section {
 .lis-one__item {
   width: 100%;
   padding: 24px 0;
-  border-bottom: 1px solid #979797;
   cursor: pointer;
+}
+
+.lis-one__item:not(:nth-child(5)) {
+  border-bottom: 1px solid #bfc0c0;
 }
 
 .lis-one__text {
@@ -571,7 +574,7 @@ section {
   font-size: 24px;
   line-height: 32px;
 
-  color: var(--color-5);
+  color: #a5aaaa;
 }
 
 .lis-one__text::before {
@@ -579,7 +582,7 @@ section {
   display: inline-block;
 
   margin-right: 28px;
-  color: var(--color-5);
+  color: #bfc0c0;
 }
 
 .lis-one__item:nth-child(2) .lis-one__text::before {
