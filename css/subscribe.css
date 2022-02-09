@@ -746,7 +746,17 @@ section {
   transition: all 0.5s ease;
 }
 
+.lis-two__item:hover .lis-two__text {
+  color: #6d7075;
+  transition: all 0.5s ease;
+  cursor: pointer;
+}
 
+.lis-two__item:hover .bx {
+  color: #076664;
+  transform: rotate(360deg);
+  transition: all 0.5s ease;
+}
 
 .menus__text-box {
   max-width: 750px;
