@@ -346,6 +346,7 @@ section {
 .works {
   margin-bottom: 200px;
   background: #2c343e;
+  border-radius: var(--bd-radius-2);
 }
 
 .works__inner {
@@ -457,6 +458,10 @@ section {
 
 
 @media screen and (max-width: 990px) {
+
+  .works__inner {
+    padding-bottom: 0;
+  }
 
   .works__list {
     margin: 0 auto;
@@ -942,6 +947,7 @@ section {
 
 .footer__sec {
   background: #2c343e;
+  border-radius: var(--bd-radius-2);
 }
 
 .footer__inner {

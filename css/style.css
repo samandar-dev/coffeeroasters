@@ -957,6 +957,7 @@ section {
 
 .footer__sec {
   background: #2c343e;
+  border-radius: var(--bd-radius-2);
 }
 
 .footer__inner {
