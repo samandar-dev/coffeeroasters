@@ -269,7 +269,6 @@ section {
   background-image: url('../images/coff-hero-img.png');
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: center center;
   border-radius: var(--bd-radius-2);
 
   margin-bottom: 135px;
