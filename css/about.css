@@ -189,7 +189,7 @@ section {
 
   .header__menu-box {
     position: absolute;
-    top: -100%;
+    top: -150%;
     right: 0;
 
     width: 100%;
